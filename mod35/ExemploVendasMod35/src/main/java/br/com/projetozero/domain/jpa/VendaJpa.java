@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package br.com.projetozero.domain.jpa;
 
 import java.math.BigDecimal;

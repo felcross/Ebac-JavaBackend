@@ -15,10 +15,7 @@ import br.com.projetozero.domain.jpa.VendaJpa;
 import br.com.projetozero.exceptions.DAOException;
 import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class VendaJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaJpaDAO() {

@@ -8,10 +8,7 @@ import br.com.projetozero.domain.jpa.VendaJpa;
 import br.com.projetozero.exceptions.DAOException;
 import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+/
 public interface IVendaJpaDAO extends IGenericJapDAO<VendaJpa, Long>{
 
 	public void finalizarVenda(VendaJpa venda) throws TipoChaveNaoEncontradaException, DAOException;
