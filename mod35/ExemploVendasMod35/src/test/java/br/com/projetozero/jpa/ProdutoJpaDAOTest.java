@@ -11,13 +11,13 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.projetozero.dao.jpa.IProdutoJpaDAO;
-import br.com.projetozero.dao.jpa.ProdutoJpaDAO;
-import br.com.projetozero.domain.jpa.ProdutoJpa;
-import br.com.projetozero.exceptions.DAOException;
-import br.com.projetozero.exceptions.MaisDeUmRegistroException;
-import br.com.projetozero.exceptions.TableException;
-import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
+import br.com.rpires.dao.jpa.IProdutoJpaDAO;
+import br.com.rpires.dao.jpa.ProdutoJpaDAO;
+import br.com.rpires.domain.jpa.ProdutoJpa;
+import br.com.rpires.exceptions.DAOException;
+import br.com.rpires.exceptions.MaisDeUmRegistroException;
+import br.com.rpires.exceptions.TableException;
+import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
 
 public class ProdutoJpaDAOTest {
 

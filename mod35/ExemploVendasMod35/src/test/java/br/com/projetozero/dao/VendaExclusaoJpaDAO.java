@@ -1,21 +1,17 @@
-/**
- * 
- */
+
 package br.com.projetozero.dao;
 
-import br.com.projetozero.dao.generic.jpa.GenericJpaDAO;
-import br.com.projetozero.dao.jpa.IVendaJpaDAO;
-import br.com.projetozero.domain.jpa.VendaJpa;
-import br.com.projetozero.exceptions.DAOException;
-import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
+import br.com.rpires.dao.generic.jpa.GenericJpaDB1DAO;
+import br.com.rpires.dao.jpa.IVendaJpaDAO;
+import br.com.rpires.domain.jpa.VendaJpa;
+import br.com.rpires.exceptions.DAOException;
+import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
 
 /**
- * @author rodrigo.pires
- *
  * Classe utilizada somente no teste para fazer a exclusão das vendas
  *
  */
-public class VendaExclusaoJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
+public class VendaExclusaoJpaDAO extends GenericJpaDB1DAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaExclusaoJpaDAO() {
 		super(VendaJpa.class);

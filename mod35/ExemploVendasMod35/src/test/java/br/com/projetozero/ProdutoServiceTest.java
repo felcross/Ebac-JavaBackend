@@ -10,17 +10,13 @@ import org.junit.Before;
 import org.junit.Test;
 
 import br.com.projetozero.dao.IProdutoDAO;
-import br.com.projetozero.dao.ProdutoDaoMock;
 import br.com.projetozero.domain.Produto;
 import br.com.projetozero.exceptions.DAOException;
 import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 import br.com.projetozero.services.IProdutoService;
 import br.com.projetozero.services.ProdutoService;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoServiceTest {
 
 	private IProdutoService produtoService;

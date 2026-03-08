@@ -22,10 +22,7 @@ import br.com.projetozero.exceptions.MaisDeUmRegistroException;
 import br.com.projetozero.exceptions.TableException;
 import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoDAOTest {
 	
 	private IProdutoDAO produtoDao;

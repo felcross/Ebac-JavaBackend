@@ -15,10 +15,7 @@ import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 import br.com.projetozero.services.ClienteService;
 import br.com.projetozero.services.IClienteService;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteServiceTest {
 	
 	private IClienteService clienteService;

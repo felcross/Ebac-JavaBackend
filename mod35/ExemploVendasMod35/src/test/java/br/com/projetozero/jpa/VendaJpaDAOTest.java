@@ -18,26 +18,22 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.projetozero.dao.VendaExclusaoJpaDAO;
-import br.com.projetozero.dao.jpa.ClienteJpaDAO;
-import br.com.projetozero.dao.jpa.IClienteJpaDAO;
-import br.com.projetozero.dao.jpa.IProdutoJpaDAO;
-import br.com.projetozero.dao.jpa.IVendaJpaDAO;
-import br.com.projetozero.dao.jpa.ProdutoJpaDAO;
-import br.com.projetozero.dao.jpa.VendaJpaDAO;
-import br.com.projetozero.domain.jpa.ClienteJpa;
-import br.com.projetozero.domain.jpa.ProdutoJpa;
-import br.com.projetozero.domain.jpa.VendaJpa;
-import br.com.projetozero.domain.jpa.VendaJpa.Status;
-import br.com.projetozero.exceptions.DAOException;
-import br.com.projetozero.exceptions.MaisDeUmRegistroException;
-import br.com.projetozero.exceptions.TableException;
-import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
+import br.com.rpires.dao.VendaExclusaoJpaDAO;
+import br.com.rpires.dao.jpa.ClienteJpaDAO;
+import br.com.rpires.dao.jpa.IClienteJpaDAO;
+import br.com.rpires.dao.jpa.IProdutoJpaDAO;
+import br.com.rpires.dao.jpa.IVendaJpaDAO;
+import br.com.rpires.dao.jpa.ProdutoJpaDAO;
+import br.com.rpires.dao.jpa.VendaJpaDAO;
+import br.com.rpires.domain.jpa.ClienteJpa;
+import br.com.rpires.domain.jpa.ProdutoJpa;
+import br.com.rpires.domain.jpa.VendaJpa;
+import br.com.rpires.domain.jpa.VendaJpa.Status;
+import br.com.rpires.exceptions.DAOException;
+import br.com.rpires.exceptions.MaisDeUmRegistroException;
+import br.com.rpires.exceptions.TableException;
+import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class VendaJpaDAOTest {
 	
 	private IVendaJpaDAO vendaDao;

@@ -19,10 +19,7 @@ import br.com.projetozero.exceptions.MaisDeUmRegistroException;
 import br.com.projetozero.exceptions.TableException;
 import br.com.projetozero.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteDAOTest {
 	
 	private IClienteDAO clienteDao;
