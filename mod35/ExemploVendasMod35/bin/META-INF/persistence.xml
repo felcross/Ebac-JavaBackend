@@ -7,13 +7,13 @@
 		
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		
-		<class>br.com.rpires.domain.jpa.Cliente</class>
-		<!-- <class>br.com.rpires.domain.Pessoa</class>
-		<class>br.com.rpires.domain.Endereco</class>
-		<class>br.com.rpires.domain.Curso</class>
-		<class>br.com.rpires.domain.Matricula</class>
-		<class>br.com.rpires.domain.Empregado</class>
-		<class>br.com.rpires.domain.Projeto</class> -->
+		<class>br.com.projetozero.domain.jpa.Cliente</class>
+		<!-- <class>br.com.projetozero.domain.Pessoa</class>
+		<class>br.com.projetozero.domain.Endereco</class>
+		<class>br.com.projetozero.domain.Curso</class>
+		<class>br.com.projetozero.domain.Matricula</class>
+		<class>br.com.projetozero.domain.Empregado</class>
+		<class>br.com.projetozero.domain.Projeto</class> -->
 		
 		<properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
